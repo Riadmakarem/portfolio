@@ -1,11 +1,11 @@
 $font-main: "Epilogue";
 
-$color-main: #986dff;
+$color-main: #0066FF;
 $color-white: #ffffff;
 $color-gray: #c6c6c6;
-$bg-main: #040615;
-$bg-secondary: #0c0b16;
-$bg-border: #17161f;
+$bg-main: #0a1733;
+$bg-secondary: #12224d;
+$bg-border: #1a2a5a;
 
 $gap-0: 0px;
 $gap-1: 8px;
@@ -79,7 +79,7 @@ $gap-9: 128px;
     height: 1px;
     bottom: -7px;
     left: 0;
-    background: linear-gradient(270deg, #986dff 0%, #17161d 100%);
+    background: linear-gradient(270deg, #0066FF 0%, #1a2a5a 100%);
     transform-origin: bottom right;
     transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
   }
@@ -100,7 +100,7 @@ $gap-9: 128px;
   transition: 1s all ease;
 
   &:hover {
-    border: 1px solid #986dff;
+    border: 1px solid #0066FF;
   }
 
   @include responsive-desktop {

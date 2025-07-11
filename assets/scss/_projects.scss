@@ -21,26 +21,21 @@
       text-align: left;
 
       .teslabank {
-        border: 1px solid #e51d37;
-
+        border: 1px solid #2196f3;
         &:hover {
-          border: 1px solid #e51d37;
+          border: 1px solid #2196f3;
         }
       }
-
       .codelab {
-        border: 1px solid #a6fb98;
-
+        border: 1px solid #00bcd4;
         &:hover {
-          border: 1px solid #a6fb98;
+          border: 1px solid #00bcd4;
         }
       }
-
       .steam {
-        border: 1px solid #536fed;
-
+        border: 1px solid #3f51b5;
         &:hover {
-          border: 1px solid #536fed;
+          border: 1px solid #3f51b5;
         }
       }
 
@@ -72,27 +67,21 @@
     }
 
     #teslabank {
-      color: #e51d37;
-
+      color: #2196f3;
       &::after {
-        background: linear-gradient(270deg, #e51d37 0%, #17161d 100%);
+        background: linear-gradient(270deg, #2196f3 0%, #1a2a5a 100%);
       }
     }
-
-
     #codelab {
-      color: #a6fb98;
-
+      color: #00bcd4;
       &::after {
-        background: linear-gradient(270deg, #a6fb98 0%, #17161d 100%);
+        background: linear-gradient(270deg, #00bcd4 0%, #1a2a5a 100%);
       }
     }
-
     #steam {
-      color: #536fed;
-
+      color: #3f51b5;
       &::after {
-        background: linear-gradient(270deg, #536fed 0%, #17161d 100%);
+        background: linear-gradient(270deg, #3f51b5 0%, #1a2a5a 100%);
       }
     }
 
