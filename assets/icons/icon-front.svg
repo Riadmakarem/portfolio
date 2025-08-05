@@ -1,0 +1,23 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Code/Development Icon -->
+  <rect x="10" y="15" width="80" height="70" rx="6" fill="none" stroke="#0066FF" stroke-width="2"/>
+  <rect x="10" y="15" width="80" height="15" fill="#0066FF" rx="6"/>
+  <circle cx="20" cy="22" r="2" fill="#ffffff"/>
+  <circle cx="28" cy="22" r="2" fill="#ffffff"/>
+  <circle cx="36" cy="22" r="2" fill="#ffffff"/>
+  
+  <!-- Code symbols -->
+  <text x="20" y="45" font-family="monospace" font-size="14" fill="#0066FF">&lt;</text>
+  <text x="30" y="45" font-family="monospace" font-size="14" fill="#986DFF">div</text>
+  <text x="50" y="45" font-family="monospace" font-size="14" fill="#0066FF">&gt;</text>
+  
+  <text x="25" y="60" font-family="monospace" font-size="12" fill="#000a94">function</text>
+  <text x="65" y="60" font-family="monospace" font-size="12" fill="#0066FF">()</text>
+  
+  <text x="20" y="75" font-family="monospace" font-size="14" fill="#0066FF">&lt;/</text>
+  <text x="35" y="75" font-family="monospace" font-size="14" fill="#986DFF">div</text>
+  <text x="55" y="75" font-family="monospace" font-size="14" fill="#0066FF">&gt;</text>
+  
+  <!-- Terminal cursor -->
+  <rect x="75" y="58" width="2" height="12" fill="#986DFF"/>
+</svg>
