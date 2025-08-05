@@ -387,7 +387,7 @@ header .grid-layout nav .nav-list li a:hover {
   top: 50%;
   transform: translate(0%, -50%);
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
   #s-home .grid-layout #home #logo {
     display: none;
   }
