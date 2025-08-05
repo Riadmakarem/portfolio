@@ -180,26 +180,60 @@ header .grid-layout nav .nav-list li a:hover {
   }
   .nav-list {
     text-align: center;
-    position: absolute;
+    position: fixed;
     top: 100px;
     right: 0;
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 100px);
     z-index: 999;
     background-color: #12224d;
     flex-direction: column;
-    padding-top: 96px;
+    padding-top: 60px;
     visibility: hidden;
+    backdrop-filter: blur(10px);
   }
   header .grid-layout nav .nav-list li {
     opacity: 0;
-    margin-bottom: 48px;
+    margin-bottom: 32px;
   }
   header .grid-layout nav .nav-list li a {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
+    padding: 16px 24px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  header .grid-layout nav .nav-list li a:hover {
+    background-color: #0a1733;
+    transform: scale(1.05);
   }
   .mobile-menu {
     display: block;
+    cursor: pointer;
+    z-index: 1000;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav-list {
+    padding-top: 40px;
+  }
+  header .grid-layout nav .nav-list li {
+    margin-bottom: 24px;
+  }
+  header .grid-layout nav .nav-list li a {
+    font-size: 2rem;
+    padding: 12px 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .nav-list {
+    padding-top: 32px;
+  }
+  header .grid-layout nav .nav-list li {
+    margin-bottom: 20px;
+  }
+  header .grid-layout nav .nav-list li a {
+    font-size: 1.8rem;
+    padding: 10px 16px;
   }
 }
 #s-home {
@@ -209,7 +243,12 @@ header .grid-layout nav .nav-list li a:hover {
 }
 @media screen and (max-width: 992px) {
   #s-home {
-    padding: 100px 20px 0px 20px;
+    padding: 100px 16px 0px 16px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #s-home {
+    padding: 80px 12px 0px 12px;
   }
 }
 #s-home .grid-layout #home {
@@ -223,6 +262,20 @@ header .grid-layout nav .nav-list li a:hover {
 @media screen and (max-width: 992px) {
   #s-home .grid-layout #home {
     padding: 0px;
+    min-height: 80vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  #s-home .grid-layout #home {
+    padding: 24px 0px;
+    min-height: 70vh;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  #s-home .grid-layout #home {
+    padding: 16px 0px;
+    min-height: 60vh;
   }
 }
 #s-home .grid-layout #home #home-container-text {
@@ -239,6 +292,16 @@ header .grid-layout nav .nav-list li a:hover {
     padding: 0px;
   }
 }
+@media screen and (max-width: 768px) {
+  #s-home .grid-layout #home #home-container-text {
+    padding: 16px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #s-home .grid-layout #home #home-container-text {
+    padding: 12px;
+  }
+}
 #s-home .grid-layout #home #home-container-text h1 {
   color: #ffffff;
   max-width: 700px;
@@ -251,6 +314,18 @@ header .grid-layout nav .nav-list li a:hover {
     font-size: 3.2rem;
   }
 }
+@media screen and (max-width: 768px) {
+  #s-home .grid-layout #home #home-container-text h1 {
+    font-size: 2.8rem;
+    line-height: 130%;
+  }
+}
+@media screen and (max-width: 480px) {
+  #s-home .grid-layout #home #home-container-text h1 {
+    font-size: 2.4rem;
+    line-height: 125%;
+  }
+}
 #s-home .grid-layout #home #home-container-text h1 span {
   color: #0066FF;
 }
@@ -261,6 +336,18 @@ header .grid-layout nav .nav-list li a:hover {
   margin: 40px 0px;
   font-weight: 400;
   line-height: 160%;
+}
+@media screen and (max-width: 768px) {
+  #s-home .grid-layout #home #home-container-text p {
+    font-size: 1.9rem;
+    margin: 32px 0px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #s-home .grid-layout #home #home-container-text p {
+    font-size: 1.7rem;
+    margin: 24px 0px;
+  }
 }
 #s-home .grid-layout #home #home-container-text a {
   display: flex;
@@ -276,6 +363,19 @@ header .grid-layout nav .nav-list li a:hover {
   margin-top: 30px;
   font-size: 2rem;
   font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  #s-home .grid-layout #home #home-container-text a {
+    font-size: 1.8rem;
+    padding: 18px 28px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #s-home .grid-layout #home #home-container-text a {
+    font-size: 1.6rem;
+    padding: 16px 24px;
+    max-width: 280px;
+  }
 }
 #s-home .grid-layout #home #home-container-text a:hover {
   padding: 20px 45px;
@@ -316,6 +416,19 @@ header .grid-layout nav .nav-list li a:hover {
   #s-about .grid-layout > div {
     flex-wrap: wrap;
     gap: 32px;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  #s-about .grid-layout > div {
+    padding: 16px;
+    gap: 24px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #s-about .grid-layout > div {
+    padding: 12px;
+    gap: 20px;
   }
 }
 #s-about .grid-layout > div #creator-photo {
@@ -360,6 +473,15 @@ header .grid-layout nav .nav-list li a:hover {
 @media screen and (max-width: 1200px) {
   #s-about .grid-layout > div div:nth-child(2) {
     width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  #s-about .grid-layout > div div:nth-child(2) {
+    order: 1;
+  }
+  #s-about .grid-layout > div .delayMediumReveal {
+    order: 2;
   }
 }
 #s-about .grid-layout > div div:nth-child(2) h2 {
@@ -371,6 +493,16 @@ header .grid-layout nav .nav-list li a:hover {
 @media screen and (max-width: 992px) {
   #s-about .grid-layout > div div:nth-child(2) h2 {
     font-size: 3.2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  #s-about .grid-layout > div div:nth-child(2) h2 {
+    font-size: 2.8rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  #s-about .grid-layout > div div:nth-child(2) h2 {
+    font-size: 2.4rem;
   }
 }
 #s-about .grid-layout > div div:nth-child(2) h3 {
@@ -390,6 +522,18 @@ header .grid-layout nav .nav-list li a:hover {
   line-height: 160%;
   margin: 32px 0px 48px 0px;
 }
+@media screen and (max-width: 768px) {
+  #s-about .grid-layout > div div:nth-child(2) p {
+    font-size: 1.6rem;
+    margin: 24px 0px 32px 0px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #s-about .grid-layout > div div:nth-child(2) p {
+    font-size: 1.5rem;
+    margin: 20px 0px 24px 0px;
+  }
+}
 #s-about .grid-layout > div div:nth-child(2) nav ul {
   display: flex;
   align-items: center;
@@ -398,6 +542,17 @@ header .grid-layout nav .nav-list li a:hover {
 @media screen and (max-width: 1200px) {
   #s-about .grid-layout > div div:nth-child(2) nav ul {
     flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  #s-about .grid-layout > div div:nth-child(2) nav ul {
+    gap: 12px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #s-about .grid-layout > div div:nth-child(2) nav ul {
+    gap: 8px;
   }
 }
 #s-about .grid-layout > div div:nth-child(2) nav ul a {
@@ -407,8 +562,26 @@ header .grid-layout nav .nav-list li a:hover {
   padding: 16px;
 }
 @media screen and (max-width: 1200px) {
-  #s-about .grid-layout > div div:nth-child(2) nav ul a img {
-    width: 40px;
+  #s-about .grid-layout > div div:nth-child(2) nav ul a {
+    padding: 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #s-about .grid-layout > div div:nth-child(2) nav ul a {
+    padding: 10px;
+  }
+  #s-about .grid-layout > div div:nth-child(2) nav ul a svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #s-about .grid-layout > div div:nth-child(2) nav ul a {
+    padding: 8px;
+  }
+  #s-about .grid-layout > div div:nth-child(2) nav ul a svg {
+    width: 18px;
+    height: 18px;
   }
 }
 #s-about .grid-layout > div div:nth-child(2) nav ul a:hover {
@@ -430,6 +603,16 @@ header .grid-layout nav .nav-list li a:hover {
   color: #ffffff;
   font-size: 4rem;
   font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  #s-experience .grid-layout h2 {
+    font-size: 3.2rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  #s-experience .grid-layout h2 {
+    font-size: 2.8rem;
+  }
 }
 #s-experience .grid-layout h2 span {
   color: #0066FF;
@@ -667,6 +850,16 @@ header .grid-layout nav .nav-list li a:hover {
   font-size: 4rem;
   font-weight: 500;
 }
+@media screen and (max-width: 768px) {
+  #s-services .grid-layout h2 {
+    font-size: 3.2rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  #s-services .grid-layout h2 {
+    font-size: 2.8rem;
+  }
+}
 #s-services .grid-layout h2 span {
   color: #0066FF;
 }
@@ -807,7 +1000,34 @@ header .grid-layout nav .nav-list li a:hover {
 }
 @media screen and (max-width: 768px) {
   #s-skills .grid-layout #skills #skills-cards article {
-    width: 40%;
+    width: 42%;
+    height: 120px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #s-skills .grid-layout #skills #skills-cards {
+    gap: 16px;
+  }
+  #s-skills .grid-layout #skills #skills-cards article {
+    width: 45%;
+    height: 100px;
+  }
+  #s-skills .grid-layout #skills #skills-cards article svg {
+    width: 45px;
+    height: 45px;
+  }
+}
+@media screen and (max-width: 360px) {
+  #s-skills .grid-layout #skills #skills-cards {
+    gap: 12px;
+  }
+  #s-skills .grid-layout #skills #skills-cards article {
+    width: 47%;
+    height: 90px;
+  }
+  #s-skills .grid-layout #skills #skills-cards article svg {
+    width: 40px;
+    height: 40px;
   }
 }
 
@@ -845,9 +1065,34 @@ footer div {
     justify-content: center;
     flex-wrap: wrap;
     gap: 48px;
+    padding: 0 20px;
   }
   footer .grid-layout div {
     display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer {
+    padding: 32px 0px;
+  }
+  footer .grid-layout {
+    gap: 24px;
+    padding: 0 16px;
+  }
+  footer p {
+    font-size: 1.6rem;
+    line-height: 1.4;
+  }
+}
+@media screen and (max-width: 480px) {
+  footer {
+    padding: 24px 0px;
+  }
+  footer .grid-layout {
+    padding: 0 12px;
+  }
+  footer p {
+    font-size: 1.4rem;
   }
 }
 
