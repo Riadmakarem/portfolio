@@ -2,7 +2,7 @@ export function hoverChangeExperience(
   nameCard,
   changeDescription,
   titleExperience,
-  companyExperience,
+  companyName,
   dateExperience
 ) {
   const varChangeDescription = document.querySelector(".changeExperience");
@@ -12,7 +12,7 @@ export function hoverChangeExperience(
 
   document.querySelector(nameCard).addEventListener("click", () => {
     varChangeDescription.innerHTML = changeDescription;
-    varCompanyExperience.innerHTML = companyExperience;
+    varCompanyExperience.innerHTML = companyName;
     varTitleExperience.innerHTML = titleExperience;
     varDateExperience.innerHTML = dateExperience;
   });

@@ -20,53 +20,19 @@ hoverChangeExperience(
 );
 
 hoverChangeExperience(
-  ".codelab",
-  `Na CodeLab Studio, lidero a criação e implementação de soluções tecnológicas voltadas para o design de produto e desenvolvimento de sistemas web. Nosso foco é entregar produtos inovadores, intuitivos e de alta performance para empresas de diversos segmentos.`,
-  "UX Designer & Desenvolvedor Frontend",
-  "CodeLab Studio",
-  "Jan 2023 - No momento (2 anos)"
+  ".datacon",
+  `Atuei como desenvolvedor Frontend na Datacon, empresa especializada em soluções de gestão de dados e análise de informações. Fui responsável pelo desenvolvimento de dashboards interativos, sistemas de coleta e processamento de dados, além de criação de APIs robustas para integração entre diferentes plataformas.`,
+  "Desenvolvedor Fullstack",
+  "Datacon",
+  "Janeiro 2025 - Junho 2025"
 );
 
 hoverChangeExperience(
-  ".digitalhouse",
-  `Trabalhei como instrutor conteudista em frontend na
-  Digital House, o trabalho consistia em criar conteúdos para as
-  aulas de especialização frontend. Alguns temas dos conteúdos
-  realizados foram: React, Redux, TypeScript, Testes,
-  GraphQL, Next.js, MUI, React Hook Form e styled-components.`,
-  "Professor conteudista em Frontend",
-  "Digital House",
-  "Nov 2021 - Nov 2022 (1 ano)"
-);
-
-hoverChangeExperience(
-  ".zuplae",
-  `Trabalhei como Social Media e Designer na Zuplae que é um escola
-  de programação, onde teve como foco as criações de conteúdos sobre
-  programação para a comunidade dev através das redes sociais.`,
-  "Social Media e UX Designer",
-  "Zuplae",
-  "Jan 2022 - Abril 2022 (4 meses)"
-);
-
-hoverChangeExperience(
-  ".codigofontetv",
-  `Trabalhei como Social Media e Designer no Código Fonte TV, 
-  onde teve como foco as criações de conteúdos sobre programação 
-  para a comunidade dev através das redes sociais.`,
-  "Social Media e UX Designer",
-  "Código Fonte TV",
-  "Jun 2021 - Jan 2022 (8 meses)"
-);
-
-hoverChangeExperience(
-  ".contweb",
-  `Realizei o estágio na ContWeb, uma empresa de contabilidade. 
-  Onde pela primeira vez tive experiência com o React. Além do
-  desenvolvimento frontend criei os designs da nova plataforma da empresa.`,
-  "Developer frontend e UX Designer",
-  "ContWeb",
-  "Set 2021 - Nov 2021 (3 meses)"
+  ".e-commerce",
+  `Atuei como desenvolvedor Web em um site de E-commerce, onde fui responsável pela criação do site e pela implementação de funcionalidades que melhoraram a experiência do usuário.`,
+  "Desenvolvedor Web",
+  "E-commerce",
+  "Janeiro 2025 - Junho 2025"
 );
 
 hoverChangeDescription(
