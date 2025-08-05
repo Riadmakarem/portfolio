@@ -9,16 +9,14 @@ initScrollReveal();
 typeWrite(document.querySelector(".typewriter"));
 
 hoverChangeExperience(
-  ".innovasfera",
-  `Trabalhei na InnovaSfera, onde tive a oportunidade de participar
-                de vários projetos para diversos clientes. Nessa trajetória,
-                trabalhei em várias criações de sites, sistemas e interfaces web
-                e mobile com a equipe de tecnologia da empresa. A InnovaSfera é
-                referência em qualidade e inovação em suas soluções
-                tecnológicas, seja em desenvolvimento ou infraestrutura.`,
-  "UX Designer & Desenvolvedor Frontend",
-  "InnovaSfera",
-  "Maio 2024 - No momento (1 ano)"
+  ".escrita360",
+  `Trabalhei como freelancer na escrita360, onde tive a oportunidade de participar
+                da criação do app de leitura e escrita de livros digitais, além de atuar no desenvolvimento de
+                interfaces web e mobile. A escrita360 é uma plataforma inovadora que visa transformar a forma
+                como as pessoas corrigem redações, oferecendo uma experiência única e intuitiva para os usuários.`,
+  "UX Designer & Desenvolvedor fullstack",
+  "Escrita360",
+  "Julho 2025 - No momento"
 );
 
 hoverChangeExperience(
@@ -73,49 +71,36 @@ hoverChangeExperience(
 
 hoverChangeDescription(
   ".html",
-  "HTML é uma linguagem de marcação, onde marcamos os elementos para definir quais informações a página vai exibir."
+  "HTML",
+  "Linguagem de marcação para estruturar e organizar o conteúdo de páginas web."
 );
 hoverChangeDescription(
   ".css",
-  "CSS é uma linguagem de folha de estilo composta por “camadas”, criado com o propósito de estilizar as páginas."
+  "CSS",
+  "Linguagem de estilo para definir a aparência e layout de páginas web."
 );
 hoverChangeDescription(
   ".js",
-  "JavaScript é uma linguagem de programação que permite a você implementar elementos dinâmicos em páginas web."
+  "JavaScript",
+  "Linguagem de programação para criar interatividade e dinamismo em páginas web."
 );
 hoverChangeDescription(
-  ".sass",
-  "Sass é um pré-processador CSS que adiciona alguns recursos que não estão disponíveis de forma nativa."
+  ".python",
+  "Python",
+  "Linguagem de programação versátil para desenvolvimento web, automação e ciência de dados."
 );
 hoverChangeDescription(
-  ".react",
-  "React é uma biblioteca JavaScript com foco em criar interfaces de usuário de forma componetizada."
+  ".flutter",
+  "Flutter",
+  "Framework do Google para desenvolvimento de aplicativos nativos multiplataforma."
 );
 hoverChangeDescription(
-  ".next",
-  "Next.js é uma estrutura da web que permite funcionalidades como renderização do lado do servidor e geração de sites estáticos para web baseados em React."
+  ".dart",
+  "Dart",
+  "Linguagem de programação criada pelo Google, usada principalmente com Flutter."
 );
 hoverChangeDescription(
-  ".styled",
-  "styled-components é uma biblioteca que utiliza o conceito de CSS-in-JS, ou seja, que nos permite escrever códigos CSS dentro do Javascript."
-);
-hoverChangeDescription(
-  ".tailwind",
-  "Tailwind CSS é um framework CSS que nos fornece classes utilitárias com o propósito de estilizar as páginas."
-);
-hoverChangeDescription(
-  ".typescript",
-  "TypeScript é um superset do JavaScript que incluir recursos que não estão presentes na linguagem de forma nativa, além de torná-la estática."
-);
-hoverChangeDescription(
-  ".radix",
-  "Radix é uma biblioteca que fornece componentes acessíveis e sem estilos para a criação de aplicação em React."
-);
-hoverChangeDescription(
-  ".cypress",
-  "Cypress é um framework para automação de testes end-to-end, onde atualmente usa a linguagem JavaScript."
-);
-hoverChangeDescription(
-  ".storybook",
-  "Storybook é uma ferramenta que tem como objetivo documentar e testar os componentes da aplicação."
+  ".nodejs",
+  "Node.js",
+  "Runtime JavaScript para desenvolvimento de aplicações server-side e APIs."
 );

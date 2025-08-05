@@ -1,8 +1,8 @@
-export function hoverChangeDescription(nameCard, text) {
+export function hoverChangeDescription(nameCard, techName, text) {
   var changeDescription = document.querySelector(".changeDescription");
 
   document.querySelector(nameCard).addEventListener("mouseover", () => {
-    changeDescription.innerHTML = text;
+    changeDescription.innerHTML = `<strong>${techName}</strong><br>${text}`;
   });
 
   document.querySelector(nameCard).addEventListener("mouseout", () => {
